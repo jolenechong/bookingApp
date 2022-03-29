@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		430C940127F1563A005C4E88 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 430C940027F1563A005C4E88 /* FirebaseAuth */; };
+		430C940327F1563A005C4E88 /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 430C940227F1563A005C4E88 /* FirebaseAuthCombine-Community */; };
+		430C940527F1563A005C4E88 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 430C940427F1563A005C4E88 /* FirebaseFirestore */; };
+		430C940727F1563A005C4E88 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 430C940627F1563A005C4E88 /* FirebaseStorage */; };
+		430C940927F188D9005C4E88 /* BookingDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430C940827F188D9005C4E88 /* BookingDetailsViewController.swift */; };
+		430C940B27F19424005C4E88 /* UpdateBookingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430C940A27F19424005C4E88 /* UpdateBookingViewController.swift */; };
+		430C940D27F19AAE005C4E88 /* AvailabilityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430C940C27F19AAE005C4E88 /* AvailabilityViewController.swift */; };
+		43203BA327EC62DA00E8572B /* AddBookingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43203BA227EC62DA00E8572B /* AddBookingViewController.swift */; };
+		43203BA527EC6AF500E8572B /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43203BA427EC6AF500E8572B /* Functions.swift */; };
+		438DEB0127E9B67000C603E7 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438DEB0027E9B67000C603E7 /* Constants.swift */; };
+		438DEB0727E9C8B400C603E7 /* RadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438DEB0627E9C8B400C603E7 /* RadioButton.swift */; };
+		43BA401627EAB0350079D36C /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BA401527EAB0350079D36C /* Utilities.swift */; };
+		43BA401827EAB0890079D36C /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BA401727EAB0890079D36C /* StartViewController.swift */; };
+		43BA402127EAF50A0079D36C /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BA402027EAF50A0079D36C /* DataManager.swift */; };
+		43BA402327EAF58E0079D36C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BA402227EAF58E0079D36C /* User.swift */; };
+		43BA402827EAF90A0079D36C /* Booking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BA402727EAF90A0079D36C /* Booking.swift */; };
+		43BA402A27EAFFF10079D36C /* BookingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BA402927EAFFF10079D36C /* BookingTableViewCell.swift */; };
+		43C4C45527E9A64B00AB802B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 43C4C45427E9A64B00AB802B /* GoogleService-Info.plist */; };
+		43C4C45827E9AA8500AB802B /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C4C45727E9AA8500AB802B /* SignUpViewController.swift */; };
+		43C4C45A27E9AA9D00AB802B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C4C45927E9AA9D00AB802B /* LoginViewController.swift */; };
+		43F911B127E868EC0027E17D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F911B027E868EC0027E17D /* AppDelegate.swift */; };
+		43F911B327E868EC0027E17D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F911B227E868EC0027E17D /* SceneDelegate.swift */; };
+		43F911B527E868EC0027E17D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F911B427E868EC0027E17D /* ViewController.swift */; };
+		43F911B827E868EC0027E17D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43F911B627E868EC0027E17D /* Main.storyboard */; };
+		43F911BA27E868ED0027E17D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43F911B927E868ED0027E17D /* Assets.xcassets */; };
+		43F911BD27E868ED0027E17D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43F911BB27E868ED0027E17D /* LaunchScreen.storyboard */; };
+		43F911C927E869440027E17D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F911C827E869440027E17D /* HomeViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		430C940827F188D9005C4E88 /* BookingDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingDetailsViewController.swift; sourceTree = "<group>"; };
+		430C940A27F19424005C4E88 /* UpdateBookingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateBookingViewController.swift; sourceTree = "<group>"; };
+		430C940C27F19AAE005C4E88 /* AvailabilityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvailabilityViewController.swift; sourceTree = "<group>"; };
+		43203BA227EC62DA00E8572B /* AddBookingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBookingViewController.swift; sourceTree = "<group>"; };
+		43203BA427EC6AF500E8572B /* Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
+		438DEB0027E9B67000C603E7 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		438DEB0627E9C8B400C603E7 /* RadioButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioButton.swift; sourceTree = "<group>"; };
+		43BA401527EAB0350079D36C /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		43BA401727EAB0890079D36C /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		43BA402027EAF50A0079D36C /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		43BA402227EAF58E0079D36C /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		43BA402727EAF90A0079D36C /* Booking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Booking.swift; sourceTree = "<group>"; };
+		43BA402927EAFFF10079D36C /* BookingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingTableViewCell.swift; sourceTree = "<group>"; };
+		43C4C45427E9A64B00AB802B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		43C4C45727E9AA8500AB802B /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		43C4C45927E9AA9D00AB802B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		43F911AD27E868EC0027E17D /* BookingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		43F911B027E868EC0027E17D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		43F911B227E868EC0027E17D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		43F911B427E868EC0027E17D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		43F911B727E868EC0027E17D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		43F911B927E868ED0027E17D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		43F911BC27E868ED0027E17D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		43F911BE27E868ED0027E17D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43F911C827E869440027E17D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43F911AA27E868EC0027E17D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				430C940127F1563A005C4E88 /* FirebaseAuth in Frameworks */,
+				430C940727F1563A005C4E88 /* FirebaseStorage in Frameworks */,
+				430C940327F1563A005C4E88 /* FirebaseAuthCombine-Community in Frameworks */,
+				430C940527F1563A005C4E88 /* FirebaseFirestore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		438DEAFF27E9B65E00C603E7 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				438DEB0027E9B67000C603E7 /* Constants.swift */,
+				438DEB0627E9C8B400C603E7 /* RadioButton.swift */,
+				43BA401527EAB0350079D36C /* Utilities.swift */,
+				43203BA427EC6AF500E8572B /* Functions.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		43BA402427EAF5B50079D36C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				43BA402227EAF58E0079D36C /* User.swift */,
+				43BA402727EAF90A0079D36C /* Booking.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		43F911A427E868EC0027E17D = {
+			isa = PBXGroup;
+			children = (
+				43F911AF27E868EC0027E17D /* BookingApp */,
+				43F911AE27E868EC0027E17D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		43F911AE27E868EC0027E17D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43F911AD27E868EC0027E17D /* BookingApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43F911AF27E868EC0027E17D /* BookingApp */ = {
+			isa = PBXGroup;
+			children = (
+				43BA402427EAF5B50079D36C /* Models */,
+				438DEAFF27E9B65E00C603E7 /* Helpers */,
+				43C4C45427E9A64B00AB802B /* GoogleService-Info.plist */,
+				43F911CA27E869580027E17D /* View Controllers */,
+				43F911B027E868EC0027E17D /* AppDelegate.swift */,
+				43F911B227E868EC0027E17D /* SceneDelegate.swift */,
+				43F911B427E868EC0027E17D /* ViewController.swift */,
+				43F911B627E868EC0027E17D /* Main.storyboard */,
+				43F911B927E868ED0027E17D /* Assets.xcassets */,
+				43F911BB27E868ED0027E17D /* LaunchScreen.storyboard */,
+				43F911BE27E868ED0027E17D /* Info.plist */,
+				43BA402027EAF50A0079D36C /* DataManager.swift */,
+			);
+			path = BookingApp;
+			sourceTree = "<group>";
+		};
+		43F911CA27E869580027E17D /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				43F911C827E869440027E17D /* HomeViewController.swift */,
+				43C4C45727E9AA8500AB802B /* SignUpViewController.swift */,
+				43C4C45927E9AA9D00AB802B /* LoginViewController.swift */,
+				43BA401727EAB0890079D36C /* StartViewController.swift */,
+				43BA402927EAFFF10079D36C /* BookingTableViewCell.swift */,
+				43203BA227EC62DA00E8572B /* AddBookingViewController.swift */,
+				430C940827F188D9005C4E88 /* BookingDetailsViewController.swift */,
+				430C940A27F19424005C4E88 /* UpdateBookingViewController.swift */,
+				430C940C27F19AAE005C4E88 /* AvailabilityViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		43F911AC27E868EC0027E17D /* BookingApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43F911C127E868ED0027E17D /* Build configuration list for PBXNativeTarget "BookingApp" */;
+			buildPhases = (
+				43F911A927E868EC0027E17D /* Sources */,
+				43F911AA27E868EC0027E17D /* Frameworks */,
+				43F911AB27E868EC0027E17D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BookingApp;
+			packageProductDependencies = (
+				430C940027F1563A005C4E88 /* FirebaseAuth */,
+				430C940227F1563A005C4E88 /* FirebaseAuthCombine-Community */,
+				430C940427F1563A005C4E88 /* FirebaseFirestore */,
+				430C940627F1563A005C4E88 /* FirebaseStorage */,
+			);
+			productName = BookingApp;
+			productReference = 43F911AD27E868EC0027E17D /* BookingApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		43F911A527E868EC0027E17D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					43F911AC27E868EC0027E17D = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 43F911A827E868EC0027E17D /* Build configuration list for PBXProject "BookingApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 43F911A427E868EC0027E17D;
+			packageReferences = (
+				430C93FF27F1563A005C4E88 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 43F911AE27E868EC0027E17D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				43F911AC27E868EC0027E17D /* BookingApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		43F911AB27E868EC0027E17D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43F911BD27E868ED0027E17D /* LaunchScreen.storyboard in Resources */,
+				43C4C45527E9A64B00AB802B /* GoogleService-Info.plist in Resources */,
+				43F911BA27E868ED0027E17D /* Assets.xcassets in Resources */,
+				43F911B827E868EC0027E17D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43F911A927E868EC0027E17D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43BA402327EAF58E0079D36C /* User.swift in Sources */,
+				430C940927F188D9005C4E88 /* BookingDetailsViewController.swift in Sources */,
+				43BA402127EAF50A0079D36C /* DataManager.swift in Sources */,
+				43C4C45A27E9AA9D00AB802B /* LoginViewController.swift in Sources */,
+				43F911B527E868EC0027E17D /* ViewController.swift in Sources */,
+				43F911B127E868EC0027E17D /* AppDelegate.swift in Sources */,
+				43BA402827EAF90A0079D36C /* Booking.swift in Sources */,
+				43F911B327E868EC0027E17D /* SceneDelegate.swift in Sources */,
+				438DEB0127E9B67000C603E7 /* Constants.swift in Sources */,
+				43BA401827EAB0890079D36C /* StartViewController.swift in Sources */,
+				43BA402A27EAFFF10079D36C /* BookingTableViewCell.swift in Sources */,
+				43203BA327EC62DA00E8572B /* AddBookingViewController.swift in Sources */,
+				43203BA527EC6AF500E8572B /* Functions.swift in Sources */,
+				43F911C927E869440027E17D /* HomeViewController.swift in Sources */,
+				43BA401627EAB0350079D36C /* Utilities.swift in Sources */,
+				43C4C45827E9AA8500AB802B /* SignUpViewController.swift in Sources */,
+				438DEB0727E9C8B400C603E7 /* RadioButton.swift in Sources */,
+				430C940B27F19424005C4E88 /* UpdateBookingViewController.swift in Sources */,
+				430C940D27F19AAE005C4E88 /* AvailabilityViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		43F911B627E868EC0027E17D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43F911B727E868EC0027E17D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		43F911BB27E868ED0027E17D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43F911BC27E868ED0027E17D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		43F911BF27E868ED0027E17D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		43F911C027E868ED0027E17D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		43F911C227E868ED0027E17D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BookingApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sg.edu.nyp.sg.jolene.BookingApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		43F911C327E868ED0027E17D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BookingApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sg.edu.nyp.sg.jolene.BookingApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43F911A827E868EC0027E17D /* Build configuration list for PBXProject "BookingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43F911BF27E868ED0027E17D /* Debug */,
+				43F911C027E868ED0027E17D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43F911C127E868ED0027E17D /* Build configuration list for PBXNativeTarget "BookingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43F911C227E868ED0027E17D /* Debug */,
+				43F911C327E868ED0027E17D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		430C93FF27F1563A005C4E88 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		430C940027F1563A005C4E88 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 430C93FF27F1563A005C4E88 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		430C940227F1563A005C4E88 /* FirebaseAuthCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 430C93FF27F1563A005C4E88 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAuthCombine-Community";
+		};
+		430C940427F1563A005C4E88 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 430C93FF27F1563A005C4E88 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		430C940627F1563A005C4E88 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 430C93FF27F1563A005C4E88 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 43F911A527E868EC0027E17D /* Project object */;
+}
