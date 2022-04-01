@@ -1,5 +1,3 @@
-# Booking App with Swift
-
 <div align="center">
   <a href="https://github.com/jolenechong/bookingApp">
     <img src="assets/logo.png" alt="Logo" width="80" height="80">
@@ -10,18 +8,21 @@
   <p align="center">
     A booking app to allow staff to book a slot to return to the office only with a negative ART test and if office is below 50% capacity
     <br />
-    <a href="https://vimeo.com/694775359">View Demo</a>
+    <a href="https://vimeo.com/694828075">View Demo</a>
   </p>
 </div>
 
 <!-- ABOUT THE PROJECT -->
+<div align="center">
+  <img src="assets/SwiftBookingApp.png" alt="Logo"/>
+</div>
+
+
 ## About The Project
 Date: March 2022<br>
-Demo: <a href="https://vimeo.com/694775359">View Demo</a>
-<br>
+Demo: <a href="https://vimeo.com/694828075">View Demo</a>
 
 ![Gif of booking submission](assets/submitBooking.gif)<br><br>
-
 
 After the pandemic, 50% of employees who can work from home are allowed to return to the
 workspace. Those who report to work onsite are encouraged to self-test via ART. <br>
@@ -46,6 +47,7 @@ User Process
 
 
 <br>
+
 
 Assumptions
 - Each staff can only create one booking for one day (hence no timeslots)
