@@ -9,22 +9,18 @@
 
   <p align="center">
     A booking app to allow staff to book a slot to return to the office only with a negative ART test and if office is below 50% capacity
-<!--     <br />
-    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
-    <br /> -->
     <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
+    <a href="https://vimeo.com/694775359">View Demo</a>
   </p>
 </div>
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-<!-- ![Alt Text](assets/interaction.gif)<br> -->
-<!-- [![Screenshot of bookingApp home page][product-screenshot]](https://example.com) -->
-<br>
 Date: March 2022<br>
-Demo: <a href="https://github.com/github_username/repo_name">View Demo</a>
-<br><br>
+Demo: <a href="https://vimeo.com/694775359">View Demo</a>
+<br>
+
+![Gif of booking submission](assets/submitBooking.gif)<br><br>
 
 
 After the pandemic, 50% of employees who can work from home are allowed to return to the
@@ -34,6 +30,8 @@ BookingApp handles bookings so that staff of a company perform the following bef
 - Perform ART and submit results
 - Only when submitting a negative result, staff can book a slot before going down to the office.
 - The booking will only go through if it doesn’t exceed 50% of current staff count.<br><br>
+
+![Screenshot on Xcode](assets/overview.png)<br><br>
 
 User Process
 1. Sign up/ Login with an email and password
@@ -56,15 +54,11 @@ Assumptions
 - All staff will show proof of booking at the entrance of the building
 - Bookings will only be accepted with a Negative ART Result
 
-
-
-
-
 ## Built With
 
-* [Swift](https://nextjs.org/)
-* [Xcode](https://reactjs.org/)
-* [Firebase](https://vuejs.org/) Firebase Authentication, Storage, Firestore
+* [Swift](https://developer.apple.com/swift/)
+* [Xcode](https://developer.apple.com/xcode/)
+* [Firebase](https://firebase.google.com) Firebase Authentication, Storage, Firestore
 
 
 <!-- GETTING STARTED -->
