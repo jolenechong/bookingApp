@@ -50,9 +50,12 @@ User Process
 <br>
 
 Assumptions
-- Each staff can only create one booking one day
+- Each staff can only create one booking for one day (hence no timeslots)
+- Staff can only view upcoming bookings, not past bookings
 - ART test results only stays valid for 7 days (staff can only book 7 days in advance)
 - All staff will show proof of booking at the entrance of the building
+- Bookings will only be accepted with a Negative ART Result
+
 
 
 
