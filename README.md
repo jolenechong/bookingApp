@@ -68,7 +68,7 @@ Assumptions
 
 * Clone and run the projec easily with xcode.
  ```sh
- git clone https://github.com/github_username/repo_name.git
+ git clone https://github.com/jolenechong/bookingApp.git
  ```
  
  * Connect Firebase and upload your ```GoogleService-Info.plist``` file
@@ -77,11 +77,11 @@ Assumptions
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Firebase Authentication
-- [ ] Add, Edit, Delete Bookings
-- [ ] View availability
-- [ ] Cleaning up UI
-- [ ] Testing the App and fixing bugs
+- [x] Firebase Authentication
+- [x] Add, Edit, Delete Bookings
+- [x] View availability
+- [x] Cleaning up UI
+- [x] Testing the App and fixing a few bugs
 
 
 <!-- CONTACT -->
